@@ -7,6 +7,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
+import Home from './src/components/Home.js'
 
 const { UIManager } = NativeModules;
 
@@ -34,6 +35,7 @@ export default class App extends React.Component {
             <Text style={styles.buttonText}>Press me!</Text>
           </View>
         </TouchableOpacity>
+        <Home />
       </View>
     );
   }
